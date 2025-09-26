@@ -1,0 +1,17 @@
+[
+  {
+    "nombre": "Juan Perez",
+    "direccion": "Avenida Roca 123",
+    "telefono": "3811111"
+  },
+  {
+    "nombre": "Lucia Gomez",
+    "direccion": "Calle San Martin 456",
+    "telefono": "3812222"
+  },
+  {
+    "nombre": "Carlos Ruiz",
+    "direccion": "Belgrano 789",
+    "telefono": "381333"
+  }
+]

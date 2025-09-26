@@ -1,0 +1,19 @@
+[
+  {
+    "Nro": 1,
+    "Obs": "sin aji",
+    "Datocliente": {
+      "ReferenciaDireccion": "plaza",
+      "Nombre": "jose",
+      "Direccion": "maipu",
+      "Telefono": "234"
+    },
+    "Estado": "Pendiente",
+    "Productos": [
+      {
+        "Tipo": 1
+      }
+    ],
+    "CadeteAsignado": null
+  }
+]
