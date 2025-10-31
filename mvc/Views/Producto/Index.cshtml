@@ -1,0 +1,33 @@
+@model List<mvc.Models.Producto>
+
+@{
+    ViewData["Title"] = "Listado de productos";
+}
+
+<h1>Productos disponibles</h1>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Categoría</th>
+            <th>Precio</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var p in Model)
+        {
+            <tr>
+                <td>@p.Id</td>
+                <td>@p.Nombre</td>
+                <td>@p.Categoria</td>
+                <td>$@p.Precio</td>
+                <td>
+                    <a asp-controller="Producto" asp-action="Detalle" asp-route-id="@p.Id" class="btn btn-info">Ver Detalle</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

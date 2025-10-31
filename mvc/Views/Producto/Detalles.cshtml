@@ -1,0 +1,10 @@
+@model mvc.Models.Producto
+@{
+    ViewData["Title"] = "Detalle del producto";
+}
+
+<h1>@Model.Nombre</h1>
+<p>Categoría: @Model.Categoria</p>
+<p>Precio: $@Model.Precio</p>
+
+<a asp-controller="Producto" asp-action="Index" class="btn btn-secondary">Volver</a>
