@@ -1,0 +1,42 @@
+[
+  {
+    "Id": 1,
+    "Title": "Noticias del D\u00EDa",
+    "Genre": "Noticias",
+    "DiaDeLaSemana": "Lunes",
+    "StarTime": "0001-01-01T00:00:00",
+    "DurationMinutes": 60
+  },
+  {
+    "Id": 2,
+    "Title": "Cocina F\u00E1cil",
+    "Genre": "Cocina",
+    "DiaDeLaSemana": "Lunes",
+    "StarTime": "0001-01-01T00:00:00",
+    "DurationMinutes": 30
+  },
+  {
+    "Id": 3,
+    "Title": "Cine de Tarde",
+    "Genre": "Pel\u00EDculas",
+    "DiaDeLaSemana": "Viernes",
+    "StarTime": "0001-01-01T00:00:00",
+    "DurationMinutes": 120
+  },
+  {
+    "Id": 4,
+    "Title": "Deportes al D\u00EDa",
+    "Genre": "Deportes",
+    "DiaDeLaSemana": "Domingo",
+    "StarTime": "0001-01-01T00:00:00",
+    "DurationMinutes": 60
+  },
+  {
+    "Id": 5,
+    "Title": "One Piece",
+    "Genre": "Shounen",
+    "DiaDeLaSemana": "Domingo",
+    "StarTime": "2026-02-11T21:15:00.011Z",
+    "DurationMinutes": 45
+  }
+]
